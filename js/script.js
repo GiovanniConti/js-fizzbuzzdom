@@ -4,18 +4,6 @@ for(let i = 1; i <= 100; i++) {
     const box = document.createElement("div");
     box.classList.add("box", "ratio", "ratio-1x1");
 
-    // switch(i) {
-    //     case (i % 3 === 0):
-    //         box.classList.add("multiple-3");
-    //         break;
-    //     case (i % 5 === 0):
-    //         box.classList.add("multiple-5")
-    //         break;
-    //     case (i % 3 === 0 && i % 5 === 0):
-    //         box.classList.add("multiple-3-5")
-    //         break;
-    // }
-
     if (i % 3 === 0){
 
         if(i % 5 === 0){
