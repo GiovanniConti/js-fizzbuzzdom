@@ -9,9 +9,10 @@ main{
 }
 
 h2{
-    font-size: 1.8rem;
-    text-align: center;
-    transform: translateY(30%);
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title{
